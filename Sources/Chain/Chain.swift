@@ -4,4 +4,7 @@ public struct Chain {
     func showMessage() {
         print("\(text)")
     }
+    public init() {
+        
+    }
 }
