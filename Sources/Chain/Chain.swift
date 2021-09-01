@@ -1,7 +1,7 @@
 public struct Chain {
-    var text = "Hello, World!"
+    internal var text = "Hello, World!"
     
-    func showMessage() {
+    public func showMessage() {
         print("\(text)")
     }
     public init() {
